@@ -2,9 +2,9 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { jwtDecode } from "jwt-decode"; // Pastikan menggunakan jwt-decode
-import CardFilm from "@/app/Components/CardFilm";
-import { Sidebar } from "@/app/Components/Sidebar";
-import Carousel from "../Components/Corousel";
+import Carousel from "../components/Corousel";
+import { Sidebar } from "../components/Sidebar";
+import CardFilm from "../components/CardFilm";
 
 export default function Page() {
   const [film, setFilm] = useState([]);
