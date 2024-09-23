@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "./Components/Navbar";
 import Marque from "./components/Marque";
+import Navbar from "./components/Navbar";
 export default function page() {
   const trendFilms = [
     {

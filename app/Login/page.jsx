@@ -6,8 +6,8 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 // Import Components
-import Navbar from "../Components/Navbar";
 import axios from "axios";
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   const [email, setemail] = useState("");

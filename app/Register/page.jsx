@@ -6,9 +6,8 @@ import { useState } from "react";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css"; // Import the toastify CSS
+import Navbar from "../components/Navbar";
 // Import Components
-import Navbar from "../Components/Navbar";
-// Import Image
 
 export default function Home() {
   // State untuk input form
