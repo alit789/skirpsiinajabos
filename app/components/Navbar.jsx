@@ -23,7 +23,7 @@ const Navbar = (props) => {
 
   return (
     <div
-      className={`fixed w-full transition-all duration-500 ${
+      className={`fixed w-full z-[99] transition-all duration-500 ${
         isScrolled ? "bg-[#151515]" : "bg-transparent"
       }`}
     >
