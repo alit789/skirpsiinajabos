@@ -7,7 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 // Import Components
 import axios from "axios";
-import Navbar from "../components/Navbar";
+import Navbar from "../../components/Navbar";
 
 export default function Home() {
   const [email, setemail] = useState("");

@@ -6,7 +6,7 @@ import { useState } from "react";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css"; // Import the toastify CSS
-import Navbar from "../components/Navbar";
+import Navbar from "../../components/Navbar";
 // Import Components
 
 export default function Home() {
